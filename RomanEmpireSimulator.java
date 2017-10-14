@@ -8,17 +8,11 @@ public class RomanEmpireSimulator {
 
 	public static void main(String[] args) {
 
-		// System objects
 		Scanner in = new Scanner(System.in);
 		Random rand = new Random();
 
-		// Game variables
 		String[] hazards = { "Volcanic Eruption", "Hun raiding party", "Excessive wine party", "Plague" };
 		int economicGrowth = 20;
-
-		// Player variables
-		
-		
 		int numSpaceshipParts = 0;
 		int larsFee = 30;
 		int spaceshipPartsDropChance = 70; // Percentage
@@ -28,7 +22,6 @@ public class RomanEmpireSimulator {
 		int progress = 0;
 		boolean running = true;
 
-		
 		System.out.println("You are emperor/empress of the Roman Empire, but your lifelong dream is to go to outerspace."
 				+ "\nLuckily, Lars the Builder from the year 2117 can build it for you, if he has the necessary spaceship "
 				+ "\nparts. However, the Huns have stolen his parts, and even when he gets the parts, Lars requries payment."
